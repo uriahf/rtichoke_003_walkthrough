@@ -51,7 +51,7 @@ xaringanExtra::use_extra_styles(
 ```{r metathis, echo=FALSE}
 library(metathis)
 meta() %>%
-  meta_name("github-repo" = "https://github.com/uriahf/rtichoke") %>%
+  meta_name("github-repo" = "https://github.com/uriahf/rtichoke_003_walkthrough") %>%
   meta_social(
     title = "rtichoke 0.0.3 walkthrough",
     description = paste(
@@ -83,6 +83,10 @@ xaringanExtra::use_clipboard()
 highlighted_text {
   background-color: yellow;
 }
+```
+
+```{r xaringanExtra-share-again, echo=FALSE}
+xaringanExtra::use_share_again()
 ```
 
 ## Agenda
