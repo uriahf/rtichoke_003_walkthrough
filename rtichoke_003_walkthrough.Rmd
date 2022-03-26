@@ -89,6 +89,10 @@ highlighted_text {
 xaringanExtra::use_share_again()
 ```
 
+```{r broadcast, echo=FALSE}
+xaringanExtra::use_broadcast()
+```
+
 ## Agenda
 
 - Presentation of available features in rtichoke 0.0.3
